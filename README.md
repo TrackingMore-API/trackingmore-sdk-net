@@ -21,8 +21,24 @@ Contact: <manage@trackingmore.org>
 
 ## Installation
 
+Downloading the NuGet package using the dotnet CLI
+
 ```
 $ dotnet add package trackingmore
+```
+
+Downloading NuGet Packages with the NuGet Command Line Tool
+
+```
+$ nuget install trackingmore
+```
+
+The difference with dotnet cli is that you need to manually modify the .csproj file and add the following code
+
+```text
+<ItemGroup>
+    <PackageReference Include="TrackingMore" Version="X.Y.Z" />
+</ItemGroup>
 ```
 
 ## Quick Start
