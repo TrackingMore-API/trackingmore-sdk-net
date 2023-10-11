@@ -53,8 +53,8 @@ public class Test
             // Console.WriteLine(apiResponse.data.courierCode);
 
             // GetTrackingResultsParams getTrackingResultsParams = new GetTrackingResultsParams();
-            // // getTrackingResultsParams.trackingNumbers = "9261290306531704519171,92612903029511573030094547";
-            // // getTrackingResultsParams.courierCode = "usps";
+            // getTrackingResultsParams.trackingNumbers = "9261290306531704519171,92612903029511573030094547";
+            // getTrackingResultsParams.courierCode = "usps";
             // getTrackingResultsParams.createdDateMin = "2023-10-09T06:00:00+00:00";
             // getTrackingResultsParams.createdDateMax = "2023-10-10T13:45:00+00:00";
             // var apiResponse = trackingMore.Tracking.GetTrackingResults(getTrackingResultsParams);
