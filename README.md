@@ -28,12 +28,9 @@ $ dotnet add package trackingmore
 ## Quick Start
 
 ```c#
-using TrackingMoreAPI.Model.Couriers;
-using TrackingMoreAPI.Model.AirWaybills;
-using TrackingMoreAPI.Model.Trackings;
-using TrackingMoreAPI.Model;
+using TrackingMoreAPI;
 
-namespace TrackingMoreAPI;
+namespace Testing;
 
 public class Test
 {
