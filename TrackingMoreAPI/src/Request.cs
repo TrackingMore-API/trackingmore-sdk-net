@@ -76,7 +76,9 @@ public class Request
                 _url = _url + "?" + queryString;
                 request.RequestUri = new Uri(_url);
             }else{
-                string jsonData = JsonConvert.SerializeObject(requestData);
+                string jsonData = JsonConvert.SerializeObject(requestData, Formatting.Indented, new JsonSerializerSettings {
+                    NullValueHandling = NullValueHandling.Ignore
+                });
                 var jsonContent = new StringContent(jsonData, Encoding.UTF8, "application/json");
                 request.Content = jsonContent;
             }
