@@ -45,6 +45,9 @@ The difference with dotnet cli is that you need to manually modify the .csproj f
 
 ```c#
 using TrackingMoreAPI;
+using TrackingMoreAPI.Model.Couriers;
+using TrackingMoreAPI.Model.AirWaybills;
+using TrackingMoreAPI.Model.Trackings;
 
 namespace Testing;
 
@@ -250,7 +253,7 @@ if(apiResponse.data != null){
 https://api.trackingmore.com/v4/trackings/delete/{id}
 ```c#
 string idString = "9a5575a8b14833ff3a34d357709707b7";
-var apiResponse = trackingMore.Tracking.RetrackTrackingByID(idString);
+var apiResponse = trackingMore.Tracking.DeleteTrackingByID(idString);
 Console.WriteLine(apiResponse.meta.code);
 if(apiResponse.data != null){
     Console.WriteLine(apiResponse.data.trackingNumber);
