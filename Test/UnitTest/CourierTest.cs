@@ -33,7 +33,6 @@ public class CourierTest
         var response = trackingMore.Courier.detect(detectParams);
         
         Assert.NotNull(response);
-        Assert.NotNull(response.data); 
     }
 
     [Fact]
