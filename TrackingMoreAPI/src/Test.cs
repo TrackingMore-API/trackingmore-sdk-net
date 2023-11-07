@@ -138,6 +138,10 @@ public class Test
         {
             Console.WriteLine("Catch custom exceptions：" + ex.Message);
         }
+        catch (TimeoutException ex)
+        {
+            Console.WriteLine("Timeout Exception: "  + ex.Message);
+        }
         catch (Exception ex)
         {
             Console.WriteLine("Catch other exceptions:" + ex.Message);
