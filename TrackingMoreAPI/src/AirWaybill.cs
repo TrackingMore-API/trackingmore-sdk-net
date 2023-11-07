@@ -1,4 +1,5 @@
 using Newtonsoft.Json;
+using System.Text.RegularExpressions;
 using TrackingMoreAPI.Model;
 using TrackingMoreAPI.Model.AirWaybills;
 
@@ -12,8 +13,8 @@ public class AirWaybill : Base
         {
             throw new TrackingMoreException(Enums.ErrMissingAwbNumber);
         }
-        if (airWaybillParams.awbNumber.Length != 12)
-        {
+        if (!Regex.IsMatch(airWaybillParams.awbNumber, @"^\d{3}[ -]?(\d{8})$"))
+        {    
             throw new TrackingMoreException(Enums.ErrInvalidAirWaybillFormat);
         }
         HttpMethod method = HttpMethod.Post;
