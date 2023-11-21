@@ -1,7 +1,7 @@
 trackingmore-sdk-net
 =================
 
-The .Net SDK of Trackingmore API
+The .Net SDK of TrackingMore API
 
 Contact: <manage@trackingmore.org>
 
@@ -10,13 +10,13 @@ Contact: <manage@trackingmore.org>
 [Document](https://www.trackingmore.com/docs/trackingmore/d5ac362fc3cda-api-quick-start)
 
 ## Index
-1. [Installation](https://github.com/TrackingMores/trackingmore-sdk-net#installation)
-2. [Testing](https://github.com/TrackingMores/trackingmore-sdk-net#testing)
-3. [Error Handling](https://github.com/TrackingMores/trackingmore-sdk-net#error-handling)
+1. [Installation](https://github.com/TrackingMore-API/trackingmore-sdk-net#installation)
+2. [Testing](https://github.com/TrackingMore-API/trackingmore-sdk-net#testing)
+3. [Error Handling](https://github.com/TrackingMore-API/trackingmore-sdk-net#error-handling)
 4. SDK
-    1. [Couriers](https://github.com/TrackingMores/trackingmore-sdk-net#couriers)
-    2. [Trackings](https://github.com/TrackingMores/trackingmore-sdk-net#trackings)
-    3. [Air Waybill](https://github.com/TrackingMores/trackingmore-sdk-net#air-waybill)
+    1. [Couriers](https://github.com/TrackingMore-API/trackingmore-sdk-net#couriers)
+    2. [Trackings](https://github.com/TrackingMore-API/trackingmore-sdk-net#trackings)
+    3. [Air Waybill](https://github.com/TrackingMore-API/trackingmore-sdk-net#air-waybill)
 
 
 ## Installation
