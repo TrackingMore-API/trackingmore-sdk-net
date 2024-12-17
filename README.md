@@ -37,7 +37,7 @@ The difference with dotnet cli is that you need to manually modify the .csproj f
 
 ```text
 <ItemGroup>
-    <PackageReference Include="TrackingMore" Version="0.1.1" />
+    <PackageReference Include="TrackingMore" Version="0.1.2" />
 </ItemGroup>
 ```
 

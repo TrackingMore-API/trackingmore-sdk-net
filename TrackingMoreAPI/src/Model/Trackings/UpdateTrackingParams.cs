@@ -25,6 +25,9 @@ public class UpdateTrackingParams
     [JsonProperty("customer_sms")]
     public string customerSms { get; set; }
 
+    [JsonProperty("recipient_postcode")]
+    public string recipientPostcode { get; set; }
+
     [JsonProperty("title")]
     public string title { get; set; }
 
@@ -60,5 +63,11 @@ public class UpdateTrackingParams
 
     [JsonProperty("note")]
     public string note { get; set; }
+
+    [JsonProperty("label")]
+    public string label { get; set; }
+
+    [JsonProperty("archived_status")]
+    public string archivedStatus { get; set; }
 
 }

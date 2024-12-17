@@ -79,6 +79,9 @@ public class Trackings
     [JsonProperty("customer_sms")]
     public string customerSms { get; set; }
 
+    [JsonProperty("recipient_postcode")]
+    public string recipientPostcode { get; set; }
+
     [JsonProperty("order_id")]
     public string orderId { get; set; }
 
@@ -90,6 +93,9 @@ public class Trackings
 
     [JsonProperty("note")]
     public string note { get; set; }
+
+    [JsonProperty("label")]
+    public string label { get; set; }
 
     [JsonProperty("signed_by")]
     public string signedBy { get; set; }
